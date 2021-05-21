@@ -1,0 +1,54 @@
+.about_container{
+    max-width: 1300px;
+    width: 100%;
+    margin:  auto;
+    // border: 1px solid grey;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    height: 40rem;
+}
+h4{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+}
+.about{
+    border: 1px solid grey;
+    background: rgb(54, 107, 54);
+}
+.about2{
+    grid-row: 2;
+}
+.about3{
+    grid-row: 3;
+}
+.about4{
+    grid-row: 4;
+    background-color: grey;
+    a{
+        color: white;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+}
+.about5{
+    grid-column: 2;
+    grid-row: 1/5;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(253, 247, 247, 0.63);
+    h3{
+        font-size: 2rem;
+        color: white;
+        font-weight: 900;
+    }
+    p{
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+}
+.about6{
+    grid-column: 3;
+    grid-row: 1/5;
+    background: url(../media/templatemo_about.jpg);
+}
